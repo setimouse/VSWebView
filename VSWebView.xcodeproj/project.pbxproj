@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D456D9215FCA3790083F9EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D456D9115FCA3790083F9EC /* UIKit.framework */; };
+		8D456D9415FCA3790083F9EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D456D9315FCA3790083F9EC /* Foundation.framework */; };
+		8D456D9615FCA3790083F9EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D456D9515FCA3790083F9EC /* CoreGraphics.framework */; };
+		8D456D9C15FCA3790083F9EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D456D9A15FCA3790083F9EC /* InfoPlist.strings */; };
+		8D456D9E15FCA3790083F9EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D456D9D15FCA3790083F9EC /* main.m */; };
+		8D456DA215FCA3790083F9EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D456DA115FCA3790083F9EC /* AppDelegate.m */; };
+		8D456DB315FCA3FC0083F9EC /* VSWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D456DB215FCA3FC0083F9EC /* VSWebView.m */; };
+		8D456DC015FCCEE20083F9EC /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D456DBF15FCCEE20083F9EC /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D456D8D15FCA3790083F9EC /* VSWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D456D9115FCA3790083F9EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D456D9315FCA3790083F9EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D456D9515FCA3790083F9EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D456D9915FCA3790083F9EC /* VSWebView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VSWebView-Info.plist"; sourceTree = "<group>"; };
+		8D456D9B15FCA3790083F9EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D456D9D15FCA3790083F9EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D456D9F15FCA3790083F9EC /* VSWebView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VSWebView-Prefix.pch"; sourceTree = "<group>"; };
+		8D456DA015FCA3790083F9EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D456DA115FCA3790083F9EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D456DB115FCA3FC0083F9EC /* VSWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSWebView.h; sourceTree = "<group>"; };
+		8D456DB215FCA3FC0083F9EC /* VSWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSWebView.m; sourceTree = "<group>"; };
+		8D456DBE15FCCEE20083F9EC /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		8D456DBF15FCCEE20083F9EC /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D456D8A15FCA3790083F9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D456D9215FCA3790083F9EC /* UIKit.framework in Frameworks */,
+				8D456D9415FCA3790083F9EC /* Foundation.framework in Frameworks */,
+				8D456D9615FCA3790083F9EC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D456D8215FCA3790083F9EC = {
+			isa = PBXGroup;
+			children = (
+				8D456D9715FCA3790083F9EC /* VSWebView */,
+				8D456D9015FCA3790083F9EC /* Frameworks */,
+				8D456D8E15FCA3790083F9EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D456D8E15FCA3790083F9EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D456D8D15FCA3790083F9EC /* VSWebView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D456D9015FCA3790083F9EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D456D9115FCA3790083F9EC /* UIKit.framework */,
+				8D456D9315FCA3790083F9EC /* Foundation.framework */,
+				8D456D9515FCA3790083F9EC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D456D9715FCA3790083F9EC /* VSWebView */ = {
+			isa = PBXGroup;
+			children = (
+				8D456DA015FCA3790083F9EC /* AppDelegate.h */,
+				8D456DA115FCA3790083F9EC /* AppDelegate.m */,
+				8D456D9815FCA3790083F9EC /* Supporting Files */,
+				8D456DB415FCA40A0083F9EC /* VSWebView */,
+				8D456DBE15FCCEE20083F9EC /* TestViewController.h */,
+				8D456DBF15FCCEE20083F9EC /* TestViewController.m */,
+			);
+			path = VSWebView;
+			sourceTree = "<group>";
+		};
+		8D456D9815FCA3790083F9EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D456D9915FCA3790083F9EC /* VSWebView-Info.plist */,
+				8D456D9A15FCA3790083F9EC /* InfoPlist.strings */,
+				8D456D9D15FCA3790083F9EC /* main.m */,
+				8D456D9F15FCA3790083F9EC /* VSWebView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D456DB415FCA40A0083F9EC /* VSWebView */ = {
+			isa = PBXGroup;
+			children = (
+				8D456DB115FCA3FC0083F9EC /* VSWebView.h */,
+				8D456DB215FCA3FC0083F9EC /* VSWebView.m */,
+			);
+			name = VSWebView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D456D8C15FCA3790083F9EC /* VSWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D456DA515FCA3790083F9EC /* Build configuration list for PBXNativeTarget "VSWebView" */;
+			buildPhases = (
+				8D456D8915FCA3790083F9EC /* Sources */,
+				8D456D8A15FCA3790083F9EC /* Frameworks */,
+				8D456D8B15FCA3790083F9EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VSWebView;
+			productName = VSWebView;
+			productReference = 8D456D8D15FCA3790083F9EC /* VSWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D456D8415FCA3790083F9EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Leeyan;
+			};
+			buildConfigurationList = 8D456D8715FCA3790083F9EC /* Build configuration list for PBXProject "VSWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8D456D8215FCA3790083F9EC;
+			productRefGroup = 8D456D8E15FCA3790083F9EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D456D8C15FCA3790083F9EC /* VSWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D456D8B15FCA3790083F9EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D456D9C15FCA3790083F9EC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D456D8915FCA3790083F9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D456D9E15FCA3790083F9EC /* main.m in Sources */,
+				8D456DA215FCA3790083F9EC /* AppDelegate.m in Sources */,
+				8D456DB315FCA3FC0083F9EC /* VSWebView.m in Sources */,
+				8D456DC015FCCEE20083F9EC /* TestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D456D9A15FCA3790083F9EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D456D9B15FCA3790083F9EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D456DA315FCA3790083F9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D456DA415FCA3790083F9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D456DA615FCA3790083F9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSWebView/VSWebView-Prefix.pch";
+				INFOPLIST_FILE = "VSWebView/VSWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8D456DA715FCA3790083F9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSWebView/VSWebView-Prefix.pch";
+				INFOPLIST_FILE = "VSWebView/VSWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D456D8715FCA3790083F9EC /* Build configuration list for PBXProject "VSWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D456DA315FCA3790083F9EC /* Debug */,
+				8D456DA415FCA3790083F9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D456DA515FCA3790083F9EC /* Build configuration list for PBXNativeTarget "VSWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D456DA615FCA3790083F9EC /* Debug */,
+				8D456DA715FCA3790083F9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D456D8415FCA3790083F9EC /* Project object */;
+}
