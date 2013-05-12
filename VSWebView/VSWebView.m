@@ -75,7 +75,7 @@
 #pragma mark - UIWebViewDelegate
 
 - (BOOL)webView:(UIWebView *)aWebView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
-	NSURL *url = [request URL];
+    NSURL *url = [request URL];
 	
     NSString *scheme = [url scheme];
     NSString *event = [url host];
